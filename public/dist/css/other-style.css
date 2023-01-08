@@ -1,0 +1,5 @@
+.bg-picture{
+    background-image: url("../../images/pos-.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

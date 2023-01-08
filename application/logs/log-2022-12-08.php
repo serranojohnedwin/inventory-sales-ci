@@ -1,0 +1,33 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2022-12-08 06:25:41 --> 404 Page Not Found: Public/images
+ERROR - 2022-12-08 08:56:42 --> 404 Page Not Found: Search/adminsearch
+ERROR - 2022-12-08 08:56:42 --> 404 Page Not Found: Search/adminsearch
+ERROR - 2022-12-08 08:56:42 --> 404 Page Not Found: Search/adminsearch
+ERROR - 2022-12-08 08:56:43 --> 404 Page Not Found: Search/adminsearch
+ERROR - 2022-12-08 08:56:43 --> 404 Page Not Found: Search/adminsearch
+ERROR - 2022-12-08 08:56:43 --> 404 Page Not Found: Search/adminsearch
+ERROR - 2022-12-08 08:56:43 --> 404 Page Not Found: Search/adminsearch
+ERROR - 2022-12-08 08:56:44 --> 404 Page Not Found: Search/adminsearch
+ERROR - 2022-12-08 08:56:45 --> 404 Page Not Found: Search/adminsearch
+ERROR - 2022-12-08 08:56:45 --> 404 Page Not Found: Search/adminsearch
+ERROR - 2022-12-08 08:56:50 --> 404 Page Not Found: Search/adminsearch
+ERROR - 2022-12-08 08:56:50 --> 404 Page Not Found: Search/adminsearch
+ERROR - 2022-12-08 08:56:50 --> 404 Page Not Found: Search/adminsearch
+ERROR - 2022-12-08 08:56:50 --> 404 Page Not Found: Search/adminsearch
+ERROR - 2022-12-08 08:56:50 --> 404 Page Not Found: Search/adminsearch
+ERROR - 2022-12-08 08:56:50 --> 404 Page Not Found: Search/adminsearch
+ERROR - 2022-12-08 08:57:15 --> 404 Page Not Found: Public/images
+ERROR - 2022-12-08 16:03:53 --> 404 Page Not Found: Public/images
+ERROR - 2022-12-08 18:10:09 --> 404 Page Not Found: Public/images
+ERROR - 2022-12-08 18:10:16 --> 404 Page Not Found: Public/images
+ERROR - 2022-12-08 18:10:22 --> 404 Page Not Found: Dashnoard/index
+ERROR - 2022-12-08 18:10:33 --> 404 Page Not Found: Dasboard/index
+ERROR - 2022-12-08 18:11:01 --> 404 Page Not Found: Public/images
+ERROR - 2022-12-08 18:11:02 --> 404 Page Not Found: Public/images
+ERROR - 2022-12-08 18:17:16 --> 404 Page Not Found: Public/images
+ERROR - 2022-12-08 18:22:52 --> 404 Page Not Found: Public/images
+ERROR - 2022-12-08 18:22:55 --> 404 Page Not Found: Public/images
+ERROR - 2022-12-08 18:23:40 --> 404 Page Not Found: Public/images
+ERROR - 2022-12-08 18:25:35 --> 404 Page Not Found: Public/images
+ERROR - 2022-12-08 18:28:53 --> 404 Page Not Found: Public/images
