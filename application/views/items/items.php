@@ -2,12 +2,11 @@
 defined('BASEPATH') OR exit('');
 ?>
 
-<div class="pwell hidden-print">   
+<div class="container-fluid pwell hidden-print">   
     
-<div class="col-sm-2 form-inline form-group-sm">
-                        <button class="btn btn-primary btn-sm" id='createItem' onclick="unhide()"><i class="fa fa-plus">
-                            <span style="font-family: monospace;" >&nbsp;Add New Item</span></i></button>
-                        </div>
+<div class="col-sm-5 form-inline form-group-sm">
+    <button class="btn btn-primary btn-sm" id='createItem' onclick="unhide()" style="font-family: 'Helvetica', 'sans-serif';"><i class="fa fa-plus"> Add New Item</i></button>
+</div>
 
     <!-- row of adding new item form and items list table-->
     <div class="row" >
@@ -18,7 +17,7 @@ defined('BASEPATH') OR exit('');
                     <!-- <button class="btn btn-info btn-xs pull-left" id="useBarcodeScanner">Use Scanner</button>
                     <button class="close cancelAddItem">&times;</button><br> -->
                     <form name="addNewItemForm" id="addNewItemForm" role="form">
-                        <div class="text-center errMsg" id='addCustErrMsg'></div>
+                        <div class="text-center errMsg tex-danger text-bold" id='addCustErrMsg'></div>
                         
                         <br>
                         
@@ -81,38 +80,30 @@ defined('BASEPATH') OR exit('');
             </div>
     <br>
     <br>
-    <br>
-    <div class="row">
-        <div class="col-sm-12">
-            <!-- sort and co row-->
-            <div class="row">
-                <div class="col-sm-12">
-                   
-
-                    <div class="col-sm-4 form-group-sm form-inline text-center">
-                        <label for="itemsListSortBy">Sort by</label>
-                        <select id="itemsListSortBy" class="form-control">
-                            <option value="name-ASC">Item Name (A-Z)</option>
-                            <option value="code-ASC">Item Code (Ascending)</option>
-                            <option value="unitPrice-DESC">Unit Price (Highest first)</option>
-                            <option value="quantity-DESC">Quantity (Highest first)</option>
-                            <option value="name-DESC">Item Name (Z-A)</option>
-                            <option value="code-DESC">Item Code (Descending)</option>
-                            <option value="unitPrice-ASC">Unit Price (lowest first)</option>
-                            <option value="quantity-ASC">Quantity (lowest first)</option>
-                        </select>
-                    </div>
-
-                    <div class="col-sm-3 form-inline form-group-sm text-right" style="float: right;">
-                        <label for='itemSearch'><i class="fa fa-search"></i></label>
-                        <input type="search" id="itemSearch" class="form-control" placeholder="Search Items">
-                    </div>
-                </div>
-            </div>
-            <!-- end of sort and co div-->
+    <!-- Sorting Functions-->
+    <div class="row justify-content-between">
+        <div class="col-sm-5">
+        <div class="col-sm">
+            <label for="itemsListSortBy">Sort by</label>
+            <select id="itemsListSortBy" class="form-control">
+                <option value="name-ASC">Item Name (A-Z)</option>
+                <option value="code-ASC">Item Code (Ascending)</option>
+                <option value="unitPrice-DESC">Unit Price (Highest first)</option>
+                <option value="quantity-DESC">Quantity (Highest first)</option>
+                <option value="name-DESC">Item Name (Z-A)</option>
+                <option value="code-DESC">Item Code (Descending)</option>
+                <option value="unitPrice-ASC">Unit Price (lowest first)</option>
+                <option value="quantity-ASC">Quantity (lowest first)</option>
+            </select>
+        </div>
+        </div>
+        <div class="col-sm-5">
+        <div class="col-sm">
+            <label for="itemSearch">Search</label>
+            <input type="search" class="form-control" id="itemSearch" placeholder="Search Items">
+        </div>
         </div>
     </div>
-    
     <hr>
             <!--- Item list div-->
             <div class="col-sm-12" id="itemsListDiv">
@@ -121,9 +112,9 @@ defined('BASEPATH') OR exit('');
                     <div class="col-sm-12" id="itemsListTable"></div>
                 </div>
                             <!--  Start of Show Entries -->
-               <div class="col-sm-12 form-inline form-group-sm text-right">
+               <div class="col-sm-5 form-inline form-group-sm">
                         <label for="itemsListPerPage">Show</label>
-                        <select id="itemsListPerPage" class="form-control">
+                        <select id="itemsListPerPage" class="form-control mx-2">
                             <option value="1">1</option>
                             <option value="5">5</option>
                             <option value="10" selected>10</option>
@@ -139,7 +130,6 @@ defined('BASEPATH') OR exit('');
                 <!--end of table-->
             </div>
             <!--- End of item list div-->
-
         </div>
     </div>
     <!-- End of row of adding new item form and items list table-->

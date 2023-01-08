@@ -1,20 +1,30 @@
 <?php defined('BASEPATH') OR exit('') ?>
-
-<div class='col-sm-6'>
-    <?= isset($range) && !empty($range) ? $range : ""; ?>
+<!--Header info -->
+<div class="row">
+    <div class="col col-sm-7">
+        
+    </div>
+    <div class="col col-sm-5">
+         
+    </div>
 </div>
 
-<div class='col-sm-6 text-right'><b>Items Total Worth/Price:</b> ₱<?=$cum_total ? number_format($cum_total, 2) : '0.00'?></div>
-
-<span class="center">
+<!-- <span class="center"> -->
 <div class='col-xs-12'>
     <div class="panel panel-primary">
         <!-- Default panel contents -->
-        <div class="panel-heading"><strong style="font-size: 1.5em; font-weight: bold;">ITEMS</strong></div>
+        <div class="panel-heading row">
+            <div class="col">
+                <h4 class="text-bold">ITEMS</h4>
+            </div>
+            <div class="col text-right">
+                <b>Items Total Worth/Price:</b> ₱<?=$cum_total ? number_format($cum_total, 2) : '0.00'?>
+            </div>
+        </div>
         <?php if($allItems): ?>
-        <div class="table table-responsive">
-            <table class="table table-bordered table-striped table-hover" style="background-color: #f5f5f5">
-                <thead>
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped table-hover">
+                <thead class="bg-dark">
                     <tr>
                         <th style="vertical-align: top;"><center>ID NO.</th></center>
                         <th style="vertical-align: top;"><center>ITEM NAME</th></center>
@@ -74,12 +84,17 @@
         <?php endif; ?>
     </div>
     <!--- panel end-->
-</span>
+<!-- </span> -->
 </div>
 
 <!---Pagination div-->
-<div class="col-sm-12 text-center">
-    <ul class="pagination">
-        <?= isset($links) ? $links : "" ?>
-    </ul>
+<div class="row">
+    <div class="col-sm-6">
+            <ul class="pagination">
+                <?= isset($links) ? $links : "" ?>
+            </ul>
+    </div>
+    <div class="col-sm-6 text-right">
+        <b class="text-bold"><b> <?= isset($range) && !empty($range) ? $range : ""; ?></b></b>
+    </div>
 </div>

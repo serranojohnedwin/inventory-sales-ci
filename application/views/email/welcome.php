@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -70,4 +70,4 @@
         <p>We hope you enjoy your time with us.</p>
         <p><small>The Manager, <br>Ibadan Golf Club</small></p>
     </body>
-</html>
+</html> -->

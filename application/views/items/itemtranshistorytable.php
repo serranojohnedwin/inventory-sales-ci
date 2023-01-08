@@ -1,7 +1,5 @@
 <?php ?>
-
-
-<div class="table table-responsive">
+<div class="table-responsive">
     Showing 1-1 of 1
     <table class="table table-bordered">
         <thead>

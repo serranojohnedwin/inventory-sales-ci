@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -65,4 +65,4 @@
         </table>
         <p><small>The Manager, <br>Ibadan Golf Club</small></p>
     </body>
-</html>
+</html> -->
