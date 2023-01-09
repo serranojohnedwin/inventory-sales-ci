@@ -4,44 +4,66 @@ defined('BASEPATH') OR exit('');
 <?php if($allTransInfo):?>
 <?php $sn = 1; ?>
 <div class="container-fluid" id="transReceiptToPrint">
-    <div class="row">
-        <div class="col-xs-12 text-center text-uppercase">
-            <center style='margin-bottom:5px'><img src="<?=base_url()?>public/images/stockpiles.png" alt="logo" class="img-responsive" width="170px"></center>
-            <!-- <b>StockPile</b> -->
-
+    <div class="row justify-content-center">
+        <div class="col-xs-12 text-center mb-3">
+           <img src="<?=base_url()?>public/images/stockpiles.png" alt="logo" class="img-responsive" width="170px">
             <div>devsclutch@gmail.com</div>
-
-
         </div>
     </div>
     <div class="row text-center">
-        <div class="col-sm-12">
-            <b><?=isset($transDate) ? date('jS M, Y h:i:sa', strtotime($transDate)) : ""?></b>
-        </div>
+
     </div>
     
     <div class="row" style="margin-top:2px">
-        <div class="col-sm-12">
+        <div class="col-sm-6">
             <label>Receipt No:</label>
-            <span><?=isset($ref) ? $ref : ""?></span>
+            <span class="h6"><?=isset($ref) ? $ref : ""?></span>
 		</div>
+        <div class="col-sm-6 mb-2">
+            <b>Date: <span for="" class="text-normal h6"><?=isset($transDate) ? date('jS M, Y h:i:sa', strtotime($transDate)) : ""?></span></b>
+        </div>
     </div>
     
-	<div class="row" style='font-weight:bold'>
+	<!-- <div class="row justify-content-around" style='font-weight:bold'>
 		<div class="col-xs-4">Item</div>
-		<div class="col-xs-4">Quantity & Price</div>
+		<div class="col-xs-2">Qty & Price</div>
 		<div class="col-xs-4">Total(₱)</div>
 	</div>
 	<hr style='margin-top:2px; margin-bottom:0px'>
     <?php $init_total = 0; ?>
     <?php foreach($allTransInfo as $get):?>
-        <div class="row">
-            <div class="col-sm-3"><?=ellipsize($get['itemName'], 15);?></div>
-            <div class="col-xs-4"><?=$get['quantity'] . "x" .number_format($get['unitPrice'], 2)?></div>
-            <!-- <div class="col-xs-4"><?=number_format($get['totalPrice'], 2)?></div> -->
+        <div class="row justify-content-around">
+            <div class="col-sm-4"><?=ellipsize($get['itemName'], 15);?></div>
+            <div class="col-xs-3"><?=$get['quantity'] . " x " .number_format($get['unitPrice'], 2)?></div>
+            <div class="col-xs-4"><?=number_format($get['totalPrice'], 2)?></div>
         </div>
         <?php $init_total += $get['totalPrice'];?>
-    <?php endforeach; ?>
+    <?php endforeach; ?> -->
+
+    <!-- TEST TABLE -->
+    <div class="table table-responsive"> 
+            <table class="table table-bordered table-striped table-hover" width="100%">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Qty & Price</th>
+                        <th>Total(₱)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php $init_total = 0; ?>
+                    <?php foreach($allTransInfo as $get):?>
+                    <tr>
+                        <td><?=ellipsize($get['itemName'], 15);?></>
+                        <td><?=$get['quantity'] . " x " .number_format($get['unitPrice'], 2)?></>
+                        <td><?=number_format($get['totalPrice'], 2)?></>
+                    </tr>
+                    <?php $init_total += $get['totalPrice'];?>
+                    <?php endforeach; ?>
+                </tbody>
+            </table>
+        </div>     
+    <!-- END OF TEST TABLE -->
 
 
 

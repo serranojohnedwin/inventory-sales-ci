@@ -6,6 +6,12 @@ defined('BASEPATH') OR exit('');
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
  <section>
+ <div class="row mb-3">
+      <div class="col-sm-12">
+          <h1>Dashboard</h1>
+          <h6 class="text-secondary">Overview the business data</h6>
+      </div><!-- /.col --><!-- /.col -->
+  </div><!-- /.row -->
  <div class="row justify-content-around">
                 <div class="col-md-3 col-sm-6 col-12">
                     <!-- small card -->

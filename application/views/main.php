@@ -119,7 +119,7 @@ defined('BASEPATH') OR exit('');
                     <li class=" nav-item my-2 <?= $pageTitle == 'Administrators' ? 'nav-link active text-bold' : '' ?>">
                         <a href="<?= site_url('administrators') ?>">
                             <i class="nav-icon fas fa-user"></i>
-                            Admin Management
+                            User Management
                         </a>
                     </li>
                     <?php endif; ?>

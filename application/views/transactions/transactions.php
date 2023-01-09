@@ -23,7 +23,12 @@ if(isset($items) && !empty($items)){
 <script>
     var currentItems = <?=json_encode($current_items)?>;
 </script>
-
+<div class="row mb-3">
+      <div class="col-sm-12">
+          <h1>Transaction</h1>
+          <h6 class="text-secondary">Payment transaction occurs </h6>
+      </div><!-- /.col --><!-- /.col -->
+</div><!-- /.row -->
 <section>
     <div class="container-fluid">
         <!-- Create Transaction Button Group-->
@@ -225,9 +230,9 @@ if(isset($items) && !empty($items)){
                         </select>
                         Entries</label>
                     </div>
-                </div>
-                <!-- show Entries end -->
-            <!-- End of transactions list table-->
+        </div>
+        <!-- show Entries end -->
+    <!-- End of transactions list table-->
         </div>
 
 <div class="row " id="divToClone" hidden>

@@ -2,6 +2,13 @@
 defined('BASEPATH') OR exit('');
 ?>
 
+<div class="row mb-3">
+      <div class="col-sm-12">
+          <h1>User Management</h1>
+          <h6 class="text-secondary">Managing User Accounts occurs</h6>
+      </div><!-- /.col --><!-- /.col -->
+  </div><!-- /.row -->
+
 <div class="row hidden-print">
     <div class="col-sm-12">
         <div class="pwell">

@@ -2,6 +2,13 @@
 defined('BASEPATH') OR exit('');
 ?>
 
+<div class="row mb-3">
+      <div class="col-sm-12">
+          <h1>Inventory Management</h1>
+          <h6 class="text-secondary">Managing stock of products occurs</h6>
+      </div><!-- /.col --><!-- /.col -->
+</div><!-- /.row -->
+
 <div class="container-fluid pwell hidden-print">   
     
 <div class="col-sm-5 form-inline form-group-sm">
@@ -81,19 +88,19 @@ defined('BASEPATH') OR exit('');
     <!-- Sorting Functions-->
     <div class="row justify-content-between">
         <div class="col-sm-5">
-        <div class="col-sm">
-            <label for="itemsListSortBy">Sort by</label>
-            <select id="itemsListSortBy" class="form-control">
-                <option value="name-ASC">Item Name (A-Z)</option>
-                <option value="code-ASC">Item Code (Ascending)</option>
-                <option value="unitPrice-DESC">Unit Price (Highest first)</option>
-                <option value="quantity-DESC">Quantity (Highest first)</option>
-                <option value="name-DESC">Item Name (Z-A)</option>
-                <option value="code-DESC">Item Code (Descending)</option>
-                <option value="unitPrice-ASC">Unit Price (lowest first)</option>
-                <option value="quantity-ASC">Quantity (lowest first)</option>
-            </select>
-        </div>
+            <div class="col-sm">
+                <label for="itemsListSortBy">Sort by</label>
+                <select id="itemsListSortBy" class="form-control">
+                    <option value="name-ASC">Item Name (A-Z)</option>
+                    <option value="code-ASC">Item Code (Ascending)</option>
+                    <option value="unitPrice-DESC">Unit Price (Highest first)</option>
+                    <option value="quantity-DESC">Quantity (Highest first)</option>
+                    <option value="name-DESC">Item Name (Z-A)</option>
+                    <option value="code-DESC">Item Code (Descending)</option>
+                    <option value="unitPrice-ASC">Unit Price (lowest first)</option>
+                    <option value="quantity-ASC">Quantity (lowest first)</option>
+                </select>
+            </div>
         </div>
         <div class="col-sm-5">
         <div class="col-sm">
