@@ -3310,3 +3310,21 @@ ERROR - 2023-01-08 14:14:51 --> 404 Page Not Found: Public/images
 ERROR - 2023-01-08 14:33:08 --> 404 Page Not Found: Public/images
 ERROR - 2023-01-08 14:33:11 --> 404 Page Not Found: Public/images
 ERROR - 2023-01-08 16:54:55 --> 404 Page Not Found: Public/images
+ERROR - 2023-01-08 19:55:52 --> 404 Page Not Found: Search/adminsearch
+ERROR - 2023-01-08 19:55:52 --> 404 Page Not Found: Search/adminsearch
+ERROR - 2023-01-08 19:55:53 --> 404 Page Not Found: Search/adminsearch
+ERROR - 2023-01-08 19:55:53 --> 404 Page Not Found: Search/adminsearch
+ERROR - 2023-01-08 19:55:55 --> 404 Page Not Found: Search/adminsearch
+ERROR - 2023-01-08 20:16:03 --> 404 Page Not Found: Public/images
+ERROR - 2023-01-08 20:16:03 --> 404 Page Not Found: Public/images
+ERROR - 2023-01-08 20:16:18 --> Severity: Notice --> Undefined property: stdClass::$completed C:\xampp\htdocs\inventory-sales-ci\application\views\transactions\transReport.php 88
+ERROR - 2023-01-08 20:16:18 --> Severity: Notice --> Undefined property: stdClass::$completed C:\xampp\htdocs\inventory-sales-ci\application\views\transactions\transReport.php 88
+ERROR - 2023-01-08 20:16:18 --> Severity: Notice --> Undefined property: stdClass::$completed C:\xampp\htdocs\inventory-sales-ci\application\views\transactions\transReport.php 88
+ERROR - 2023-01-08 20:16:18 --> Severity: Notice --> Undefined property: stdClass::$completed C:\xampp\htdocs\inventory-sales-ci\application\views\transactions\transReport.php 88
+ERROR - 2023-01-08 20:16:18 --> Severity: Notice --> Undefined property: stdClass::$completed C:\xampp\htdocs\inventory-sales-ci\application\views\transactions\transReport.php 88
+ERROR - 2023-01-08 20:16:18 --> Severity: Notice --> Undefined property: stdClass::$completed C:\xampp\htdocs\inventory-sales-ci\application\views\transactions\transReport.php 88
+ERROR - 2023-01-08 20:16:18 --> Severity: Notice --> Undefined property: stdClass::$completed C:\xampp\htdocs\inventory-sales-ci\application\views\transactions\transReport.php 88
+ERROR - 2023-01-08 20:16:18 --> Severity: Notice --> Undefined property: stdClass::$completed C:\xampp\htdocs\inventory-sales-ci\application\views\transactions\transReport.php 88
+ERROR - 2023-01-08 20:16:18 --> Severity: Notice --> Undefined property: stdClass::$completed C:\xampp\htdocs\inventory-sales-ci\application\views\transactions\transReport.php 88
+ERROR - 2023-01-08 20:16:18 --> Severity: Notice --> Undefined property: stdClass::$completed C:\xampp\htdocs\inventory-sales-ci\application\views\transactions\transReport.php 88
+ERROR - 2023-01-08 20:16:19 --> 404 Page Not Found: Public/images

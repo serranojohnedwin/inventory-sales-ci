@@ -52,7 +52,7 @@ if(isset($items) && !empty($items)){
                 <div class="col-sm-12" id="salesTransFormDiv">
                     <div class="well">
                         <form name="salesTransForm" id="salesTransForm" role="form">
-                            <div class="text-center errMsg" id='newTransErrMsg'></div>
+                            <div class="text-center errMsg text-danger text-bold" id='newTransErrMsg'></div>
                             <br>
 
                             <div class="row">
@@ -160,10 +160,10 @@ if(isset($items) && !empty($items)){
                                    <!--  <button class="btn btn-primary btn-sm" id='useScanner'>Use Barcode Scanner</button> -->
                                 </div>
                                 <div class="col-sm-6"></div>
-                                <div class="col-sm-4 form-group-sm">
-                                    <button type="button" class="btn btn-primary btn-sm" id="confirmSaleOrder">Confirm Order</button>
-                                    <button type="button" class="btn btn-danger btn-sm" id="cancelSaleOrder">Clear Order</button>
-                                    <button type="button" class="btn btn-danger btn-sm" id="hideTransForm">Close</button>
+                                <div class="col-sm-4 form-group-sm float-right">
+                                    <button type="button" class="btn btn-primary btn-block" id="confirmSaleOrder">Confirm Order</button>
+                                    <button type="button" class="btn btn-danger btn-block" id="cancelSaleOrder">Clear Order</button>
+                                    <button type="button" class="btn btn-danger btn-block" id="hideTransForm">Close</button>
                                 </div>
                             </div>
                         </form>

@@ -4,12 +4,14 @@ defined('BASEPATH') OR exit('');
 
 <!-- <?php echo isset($range) && !empty($range) ? "Showing ".$range : ""?> -->
 <div class="panel panel-primary">
-    <div class="panel-heading"><center><strong style="font-size: 1.5em; font-weight: bold;">EMPLOYEE ACCOUNTS</strong></center></div>
+    <div class="panel-heading">
+        <h4 class="text-bold">EMPLOYEE ACCOUNTS</h4>
+    </div>
     <?php if($allAdministrators):?>
         <span class="center">
     <div class="table table-responsive">
         <table class="table table-striped table-bordered center" cellspacing="0" cellpadding="0">
-            <thead>
+            <thead class="bg-dark">
                 <tr>
                     <th style="vertical-align: top;"><center>ID NO.</th></center>
                     <th style="vertical-align: top;"><center>EMPLOYEE NAME</th></center>

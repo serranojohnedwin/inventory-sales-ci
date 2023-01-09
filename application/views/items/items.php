@@ -12,22 +12,20 @@ defined('BASEPATH') OR exit('');
     <div class="row" >
         <div class="col-sm-12" >
             <!--Form to add/update an item-->
-            <div class="col-sm-4 hidden" id='createNewItemDiv' hidden>
+            <div class="col-sm-12 hidden" id='createNewItemDiv' hidden>
                 <div class="well">
                     <!-- <button class="btn btn-info btn-xs pull-left" id="useBarcodeScanner">Use Scanner</button>
                     <button class="close cancelAddItem">&times;</button><br> -->
                     <form name="addNewItemForm" id="addNewItemForm" role="form">
-                        <div class="text-center errMsg tex-danger text-bold" id='addCustErrMsg'></div>
-                        
+                        <div class="text-center text-danger errMsg mt-3 mb-1" id='addCustErrMsg'></div>
                         <br>
-                        
                         <div class="row">
                             <div class="col-sm-12 form-group-sm">
                                 <label for="itemCode">Item Code</label>
                                 <input type="text" id="itemCode" name="itemCode" placeholder="Item Code" maxlength="80"
-                                    class="form-control" onchange="checkField(this.value, 'itemCodeErr')" autofocus>
+                                    class="form-control" onchange="checkField(this.value, 'itemCodeErr')">
                                 <!--<span class="help-block"><input type="checkbox" id="gen4me"> auto-generate</span>-->
-                                <span class="help-block errMsg" id="itemCodeErr"></span>
+                                <span class="help-block errMsg text-danger text-bold mt-3 mb-1" id="itemCodeErr"></span>
                             </div>
                         </div>
                         
@@ -36,7 +34,7 @@ defined('BASEPATH') OR exit('');
                                 <label for="itemName">Item Name</label>
                                 <input type="text" id="itemName" name="itemName" placeholder="Item Name" maxlength="80"
                                     class="form-control" onchange="checkField(this.value, 'itemNameErr')">
-                                <span class="help-block errMsg" id="itemNameErr"></span>
+                                <span class="help-block errMsg text-danger text-bold mt-3 mb-1" id="itemNameErr"></span>
                             </div>
                         </div>
 
@@ -45,7 +43,7 @@ defined('BASEPATH') OR exit('');
                                 <label for="itemQuantity">Quantity</label>
                                 <input type="number" id="itemQuantity" name="itemQuantity" placeholder="Available Quantity"
                                     class="form-control" min="0" onchange="checkField(this.value, 'itemQuantityErr')">
-                                <span class="help-block errMsg" id="itemQuantityErr"></span>
+                                <span class="help-block errMsg text-danger text-bold mt-3 mb-1" id="itemQuantityErr"></span>
                             </div>
                         </div>
 
@@ -54,7 +52,7 @@ defined('BASEPATH') OR exit('');
                                 <label for="unitPrice">(₱)Unit Price</label>
                                 <input type="text" id="itemPrice" name="itemPrice" placeholder="(₱)Unit Price" class="form-control"
                                     onchange="checkField(this.value, 'itemPriceErr')">
-                                <span class="help-block errMsg" id="itemPriceErr"></span>
+                                <span class="help-block errMsg text-danger text-bold mt-3 mb-1" id="itemPriceErr"></span>
                             </div>
                         </div>
 
@@ -68,11 +66,11 @@ defined('BASEPATH') OR exit('');
                         <br>
                         <div class="row text-center">
                             <div class="col-sm-6 form-group-sm">
-                                <button class="btn btn-primary btn-sm" id="addNewItem">Add Item</button>
+                                <button class="btn btn-primary btn-block me-2 mb-2" id="addNewItem">Add Item</button>
                             </div>
 
                             <div class="col-sm-6 form-group-sm">
-                                <button type="reset" id="cancelAddItem" class="btn btn-danger btn-sm cancelAddItem" form='addNewItemForm' onclick="hide()" >Cancel</button>
+                                <button type="reset" id="cancelAddItem" class="btn btn-danger btn-block me-2 mb-2 cancelAddItem" form='addNewItemForm' onclick="hide()" >Cancel</button>
                             </div>
                         </div>
                     </form><!-- end of form-->
